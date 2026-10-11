@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+/* Main container */
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Weather card */
+.card {
+    width: 300px;
+    height: auto;
+    min-height: 0;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Weather information */
+.weatherStatus {
+    margin-bottom: 15px;
+}
+
+.weather-icon {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin: 10px auto 20px;
+}
+
+/* Temperature */
+#temp {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* City */
+#city {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+/* Humidity and Wind */
+.w2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Humidity and Wind icons */
+.info-icon {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin: 5px 0;
+}
+
+/* Values */
+#dh,
+#dw {
+    font-size: 24px;
+}
+
+/* Titles */
+#th,
+#tw {
+    font-size: 20px;
+    margin-top: 3px;
+}
